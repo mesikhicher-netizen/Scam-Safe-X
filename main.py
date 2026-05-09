@@ -622,7 +622,7 @@ def send_welcome(message: Message):
         "✨ 𝗦𝗧𝗔𝗬 𝗦𝗔𝗙𝗘 • 𝗦𝗧𝗔𝗬 𝗦𝗘𝗖𝗨𝗥𝗘\n"
         "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n\n"
     )
-    powered_html = f"⚡️ Powered By: <a href='https://t.me/ZyroX9'>{OWNER_USERNAME}</a>"
+    powered_html = "⚡️ 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬: <a href='https://t.me/ZyroX9'>@ZyroX9</a>"
     full_caption = welcome_text_html + powered_html
     bot.send_photo(user_id, WELCOME_IMAGE, caption=full_caption, parse_mode='HTML')
     bot.send_message(user_id, "📋 <b>Choose an option below:</b>", reply_markup=reply_main_menu(), parse_mode='HTML')
